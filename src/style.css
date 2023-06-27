@@ -3,3 +3,68 @@
   padding: 0;
   margin: 0;
 }
+
+/* For container of both recent score and add score  */
+
+.leader-con {
+  margin: 20px;
+}
+
+.leader-title {
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+
+/* Recent score part */
+
+.leader-score-u {
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+.leader-s-listitems {
+  padding: 10px;
+}
+
+.leader-s-listitems:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+.leader-s-listitems:nth-child(even) {
+  background-color: rgb(228, 228, 228);
+}
+
+.leader-score-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 9rem 5rem 6rem;
+}
+
+.leader-r-title-con {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+
+.leader-recent-score {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+/* Add score part */
+
+.leader-add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 12rem;
+}
+
+.leader-a-submit {
+  display: flex;
+  align-self: flex-end;
+}
