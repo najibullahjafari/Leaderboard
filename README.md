@@ -77,7 +77,7 @@ In this project best coding practices is used.
 
 To get a local copy up and running, follow these steps.
 
-1. Go to this URL link: https://github.com/najibullahjafari/To-do-list
+1. Go to this URL link: https://github.com/najibullahjafari/leaderboard
 2. clone the repo and start working on it.
 
 ### Prerequisites
