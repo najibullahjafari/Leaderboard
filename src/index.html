@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebPack-Linters-Configurations</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
   </head>
   <body>
     <main>
@@ -14,10 +19,12 @@
           <div class="leader-recent-score">
             <div class="leader-r-title-con">
               <h3 class="leader-r-title">Recent scores</h3>
-              <button class="leader-r-btn">Refresh</button>
+              <button class="leader-r-btn btn btn-outline-primary btn-sm">
+                Refresh
+              </button>
             </div>
             <div class="leader-scores">
-              <ul class="leader-score-u" id="scoreList">
+              <ul class="leader-score-u list-group" id="scoreList">
                 <!-- Placeholder for dynamically added scores -->
               </ul>
             </div>
@@ -27,22 +34,31 @@
             <input
               type="text"
               placeholder="your name"
-              class="leader-a-name"
+              class="leader-a-name form-control"
               id="nameField"
             />
 
             <input
               type="number"
               placeholder="your score"
-              class="leader-a-score"
+              class="leader-a-score form-control"
               id="scoreField"
-            />
-            <p class="alert-parascore"></p>
-            <button class="leader-a-submit">Submit</button>
-            <p class="alert-paraname"></p>
+            /><span class="alert-parascore"></span>
+
+            <button class="leader-a-submit btn btn-outline-success btn-sm">
+              Submit
+            </button>
+
+            <p class=""></p>
           </div>
         </div>
       </div>
+      <footer class="leader-footer">&copy;2023 Najibullah</footer>
     </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
