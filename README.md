@@ -71,7 +71,7 @@ In this project best coding practices is used.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-![You can see the page live here](https://classy-cheesecake-b6b41b.netlify.app/)
+[You can see the page live demo here](https://classy-cheesecake-b6b41b.netlify.app/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
