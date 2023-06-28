@@ -1,5 +1,5 @@
 const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-const gameID = 'Zl4d7IVkemOTTVg2fUdzzz';
+const gameID = 'Zl4d7IVkemOTTVg2fUdzzzz';
 let leaderboardData = null;
 
 // Function to create a new score for a game
