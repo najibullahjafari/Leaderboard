@@ -1,5 +1,3 @@
-/* eslint-disable */
-// I didn't used of these that why I used disable!!
+// here the app will start
 import './style.css';
-import { leaderboard } from './modules/leaderboard';
-/* eslint-enable */
+import './modules/leaderboard';

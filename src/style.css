@@ -26,12 +26,12 @@
   padding: 10px;
 }
 
-.leader-s-listitems:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
+.leader-score-u .leader-s-listitems:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-.leader-s-listitems:nth-child(even) {
-  background-color: rgb(228, 228, 228);
+.leader-score-u .leader-s-listitems:nth-child(odd) {
+  background-color: #fff;
 }
 
 .leader-score-con {
