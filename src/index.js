@@ -1,5 +1,3 @@
-/* eslint-disable */
-// I didn't used of these that why I used disable!!
+// I didn't used of these that why I used disable!!\n
 import './style.css';
-import { leaderboard } from './modules/leaderboard';
-/* eslint-enable */
+import './modules/leaderboard';
